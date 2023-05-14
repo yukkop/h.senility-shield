@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  birthday_notifier:
+    build: .
+    volumes:
+      - .:/app
