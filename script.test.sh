@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source the secrets file
-source /app/secrets.sh
+source secrets.sh
 
 # File to parse
 FILE="birthdays.csv"

@@ -3,5 +3,7 @@ version: '3.9'
 services:
   birthday_notifier:
     build: .
+    privileged: true
     volumes:
-      - .:/app
+      - ./birthdays.csv:/app/birthdays.csv
+      - ./secrets.sh:/app/secrets.sh

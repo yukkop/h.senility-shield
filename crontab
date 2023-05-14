@@ -1,0 +1,2 @@
+# Run the script every day at 5am
+0 5 * * * bash /app/birthday_notifier.sh >> /var/log/cron.log
