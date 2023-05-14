@@ -3,6 +3,7 @@ version: '3.9'
 services:
   birthday_notifier:
     build: .
+    restart: always
     privileged: true
     volumes:
       - ./birthdays.csv:/app/birthdays.csv
