@@ -7,7 +7,7 @@ source /app/secrets.sh
 FILE="birthdays.csv"
 
 # Get today's date in the format used in the file
-TODAY=$(date '+%Y-%m-%d')
+TODAY=$(date '+%m-%d')
 
 # Check if any birthdays are today
 while IFS=',' read -r name bday pronoun; do
